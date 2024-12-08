@@ -5,7 +5,7 @@ import {getFirestore}   from "firebase/firestore";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD_siQdcQI-NGD20Z0kUkNhC_-VW4vdDZU",
+  apiKey: process.env.FIREBASE_API,
   authDomain: "inventory-management-48cfc.firebaseapp.com",
   projectId: "inventory-management-48cfc",
   storageBucket: "inventory-management-48cfc.appspot.com",
